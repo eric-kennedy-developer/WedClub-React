@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Front-end React
+____
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instalação
+1. Criar uma pasta e entrar nela (mkdir NomePasta && cd NomePasta)
+2. git clone --branch master https://github.com/eric-kennedy-developer/WedClub-React.git
+3. npm install
+4. npm start
+___
+## Testes Realizados
+- [x] Listar todos os usuários
+- [x] Cadastrar usuário
+- [x] Tentar cadastrar com o mesmo nome e email de outro usuário
+- [x] Tentar cadastrar com o mesmo nome de outro usuário
+- [x] Tentar cadastrar com o mesmo email de outro usuário
+- [x] Editar usuário
+- [x] Tentar editar o usuário com o mesmo nome e email de outro usuário
+- [x] Tentar editar o usuário com o mesmo nome de outro usuário
+- [x] Tentar editar o usuário com o mesmo email de outro usuário
+- [x] Excluir usuário
+- [x] Imagem 200x200 com 70% de qualidade
+___
+## Funções
+- Editar o texto do título, do botão submit, action e _method do modal conforme a ação de cadastrar ou editar
+- Carreguei o nome e o e-mail do usuário quando clicado em editar
+- Limpei os campos do modal quando clicado em cadastrar
+___
+## Pendências
+O arquivo App.js ficou bem feio estruturamente falando, a ideia seria criar alguns componentes e aplicar o styled-components, mas não consegui por falta de tempo. Demorei horas para entender que a requisição do PUT deveria ser feita via POST com um paramêtro _method="PUT"
+___
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Considerações Finais
+A ideia seria entregar 3 front-end: Jquery, React e Vue. Mas precisei estudar o Laravel 8 e o React. No fim o tempo ficou bem apertado.  
+Mas espero que tenha gostado do meu resultado/avanço. Tudo o que apresentei foi fruto do meu estudo neste período de 3 dias, com exceção do Jquery que precisei estudar apenas o PUT.  
+Tempo aproximado dedicado ao desafio WedClub: 50 horas.
